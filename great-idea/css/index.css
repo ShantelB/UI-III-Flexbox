@@ -64,17 +64,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+.navigate {
+	position: fixed;
+	padding-left: 101px;
+	width: 100%;
+	margin-top: -57px;
+	padding: 0px 91px 0px 141px;
+}
 nav {
 	display: flex;
 	justify-content: space-evenly;
+	background-color: blue;
 	
 }
 
 nav button {
-	background-color: white;
+	background-color: blue;
 	color: darkgrey;
 	border: none;
+
 }
 
 header {
@@ -82,6 +90,8 @@ header {
 	justify-content: space-evenly;
 	text-align: center;
 	align-content: center;
+	margin-top: 63px;
+	padding-bottom: 37px;
 }
 
 header h1 {
@@ -89,6 +99,8 @@ header h1 {
 	font-size: 100px;
 	width: 23%;
 	flex-direction: column;
+	padding-left: 21px;
+	padding-top: 32px;
 }
 
 header button {
@@ -99,6 +111,7 @@ header button {
 	align-items: center;
 	flex-direction: column;
 	align-content: flex-start;
+	margin-top: 341px;
 
 }
 
@@ -108,8 +121,9 @@ header button {
 	border-right-style: hidden;
 	border-left-style: hidden;
 	/*display: flex;*/
-	height: 100vh;
-	width: 93%;
+	width: 76%;
+	margin-left: 196px;
+	padding: 30px 36px;
 }
 
 .block1 {
@@ -117,6 +131,7 @@ header button {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction:row;
+	padding-bottom: 11px;
 	
 }
  .block1 p {
@@ -125,7 +140,7 @@ header button {
 
  .block1 div {
 	 width:40%;
-	 padding-left: 187px;
+	
  }
  
 	
@@ -140,11 +155,13 @@ header button {
 }*/
 		
 .block2 {
+	column-count: 3;
 	display:flex;
 	justify-content: space-between;
-	align-content: center;
-		flex-direction: row;
-		padding-left: 145px;
+	align-items: center;
+	flex-direction: row;
+	padding-top: 11px;
+	
 		
 	 }
 		   
@@ -157,4 +174,15 @@ header button {
 		
 .block2 div {
 	width: 40%;
+	padding-right: 38px;
+}
+
+.contact {
+	padding-left: 196px;
+	padding-top: 56px;
+}
+footer {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
